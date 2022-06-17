@@ -1,0 +1,29 @@
+.loginForm {
+    background: url('./../../assets/images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.loginFormBlock {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 25px 40px;
+    border-radius: 20px;
+}
+
+.emailInput {
+    background-color: transparent !important;
+}
+
+.ant-input {
+    background-color: #FFFFFF !important;
+}
+/* .ant-input-password-icon.anticon {
+    color: #FFFFFF !important;
+} */

@@ -1,0 +1,37 @@
+.EditavatarBlock{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.EditavatarBlock p{
+    margin: 0;
+    line-height: 40px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.avatar{
+    align-self: flex-start;
+}
+.editProfilePage{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.editPageLabel{
+    color: #000;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.editPageInput{
+    background-color: transparent;
+    outline: 0;
+    border: 1px solid rgba(255,255,255,0.5);
+}
+.editPageForm{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

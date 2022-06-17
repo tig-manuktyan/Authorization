@@ -1,0 +1,77 @@
+.addPhoto {
+    background: linear-gradient(to right, red, orange);
+    border: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+    margin: 0;
+    height: 30px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    cursor: pointer;
+
+}
+
+.rightBlockHeader {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.rightBlockHeaderIcon {
+    color: #FFFFFF !important;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.logoIcon {
+    height: 30px;
+    margin: 20px 0;
+    /* margin-top: 10px; */
+    /* margin-left: 20px; */
+    /* margin-bottom: 10px; */
+}
+
+.editProfile {
+    background: linear-gradient(to right, red, orange);
+    color: #FFFFFF;
+    /* font-size: 18px; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.addPhoto p {
+    margin: 0;
+}
+
+.nameInfo {
+    color: #FFFFFF;
+}
+
+.mainSideBar {
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.mainSideBar::-webkit-scrollbar {
+    width: 0px;
+}
+
+.MainBar {
+    overflow-x: hidden;
+    background-color: #3C3F52 !important;
+    border-radius: 20px;
+    height: 100vh;
+}

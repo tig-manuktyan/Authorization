@@ -1,0 +1,21 @@
+.searchInput {
+    height: 30px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px 5px 5px 0px;
+    padding: 5px 10px;
+}
+
+.searchInput input::placeholder {
+    color: #cecece;
+}
+
+.searchInput input {
+    background-color: transparent;
+    border: 0;  
+    height: 30px;
+    outline: 0;
+    margin-left: 5px;
+}

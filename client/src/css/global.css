@@ -1,0 +1,124 @@
+.ant-layout {
+    background-color: #282B34;
+}
+
+.followingInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.inFollow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 60px;
+    height: 65px;
+}
+
+.inFollow h3 {
+    color: #FFFFFF;
+    font-size: 16px;
+    height: 40px;
+}
+
+.inFollow p {
+    color: #9DA0A7;
+    font-size: 14px;
+    height: 20px;
+}
+
+.borgerMenuBlock {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logout button {
+    background-color: transparent;
+    border: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logout {
+    /* padding-left: 27px; */
+}
+
+.ant-menu-title-content {
+    color: #9DA0A7;
+}
+
+.ant-menu-item-selected {
+    color: red !important;
+}
+
+input {
+    color: black !important;
+}
+
+.modalContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+    .logOutText {
+    margin: 0;
+    cursor: pointer;
+}
+
+.avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    outline: 2.5px solid rgb(255, 94, 0);
+}
+
+.ant-layout-sider-children {
+    height: 100vh;
+}
+
+.borgerMenu {
+    border: 0;
+    background-color: #3C3F52;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    border-radius: 50% 0 0 50%;
+}
+
+.avatarBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color: transparent !important;
+}
+
+.ant-menu-inline,
+.ant-menu-vertical,
+.ant-menu-vertical-left {
+    border-color: transparent !important;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.4);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #9DA0A7;
+    outline: 1px solid #9DA0A7;
+}
